@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+venv/
+env/
+envnew/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs and outputs
+logs/
+*.log
+notebooks/.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+venv
+envnew
+
+# Jupyter
+.ipynb_checkpoints/
+
+
+
+env/
+__pycache__/
+*.ipynb
+logs/
+artifacts/raw/
+artifacts/unseen_test/
+prediction/models/archive/
+
+
+notebook

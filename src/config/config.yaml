@@ -1,0 +1,10 @@
+data:
+  raw_path: C:\Users\Admin\Desktop\cb\data\raw\WA_Fn-UseC_-Telco-Customer-Churn (1).csv
+  processed_path: C:\Users\Admin\Desktop\cb\data\processed\churn_cleaned_integer_ready.csv
+  target_column: Churn      # 🔴 CHANGE THIS
+  drop_columns:
+    - customerID            # 🔴 CHANGE IF NEEDED
+
+model:
+  test_size: 0.2
+  random_state: 42

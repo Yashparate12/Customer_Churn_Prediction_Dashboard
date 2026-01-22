@@ -1,3 +1,5 @@
+flask==3.0.0
+gunicorn==21.2.0
 pandas
 numpy
 scikit-learn
@@ -5,3 +7,4 @@ xgboost
 streamlit
 pyyaml
 joblib
+altair==4.2.2
